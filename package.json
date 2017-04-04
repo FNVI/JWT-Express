@@ -13,7 +13,7 @@
     "express": "^4.15.2",
     "nodemon": "^1.11.0"
   },
-  "repository": "github:FNVI/JWT-Express.git",
+  "repository": "github:fnvi/JWT-Express",
   "dependencies": {
     "jsonwebtoken": "^7.3.0"
   }
