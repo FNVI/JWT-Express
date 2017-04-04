@@ -1,0 +1,19 @@
+{
+  "name": "jwt-express",
+  "version": "0.1.0",
+  "description": "Authentication on express routes",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon test.js"
+  },
+  "author": "Joe Wheatley",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.3.0"
+  }
+}
