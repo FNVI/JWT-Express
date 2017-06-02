@@ -4,14 +4,16 @@
   "description": "Authentication on express routes",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon test.js"
+    "run": "node something.js",
+    "test":"mocha"
   },
   "author": "Joe Wheatley",
   "license": "ISC",
   "devDependencies": {
-    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
     "express": "^4.15.2",
-    "nodemon": "^1.11.0"
+    "mocha": "^3.3.0"
   },
   "repository": "github:fnvi/JWT-Express",
   "dependencies": {
