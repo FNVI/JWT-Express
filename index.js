@@ -46,7 +46,6 @@ class JWTExpress {
 
         return function(req, res, next){
             getPayload(req, res, function(payload){
-                console.log(payload);
                 var token = jwt.sign(payload,secret,{expiresIn:expiresIn});
                 res.header(header,token);
                 next();
